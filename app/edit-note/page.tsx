@@ -75,7 +75,7 @@ const AddNote = ({ note, onSave, onCancel, isLoading = false }: NoteEditorProps)
                 disabled={!hasChanges || isLoading}
                 className="h-8 px-3 text-xs"
               >
-                {isLoading ? 'Creating...' : 'Create Note'}
+                {isLoading ? 'Saving...' : 'Save Note'}
               </Button>
             </div>
         </CardFooter>
